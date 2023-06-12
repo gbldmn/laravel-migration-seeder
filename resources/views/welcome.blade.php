@@ -18,6 +18,13 @@
 <body>
 
 <h1>{{ $title }}</h1>
+<h2>questo è il nome delle aziende nel mio database:</h2>
+
+@foreach( $trains as $elem )
+
+<p>{{$elem['azienda'] }}</p>
+
+@endforeach
 
 </body>
 
