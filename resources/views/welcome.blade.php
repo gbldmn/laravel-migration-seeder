@@ -15,7 +15,7 @@
 
 </head>
 
-<body>
+<body class='container'>
 
 <h1>{{ $title }}</h1>
 <h2>questo è il nome delle aziende nel mio database:</h2>
